@@ -6,7 +6,7 @@
 ##AngularJS & RequireJS
 Exemplo de CRUD em LocalStorage usando [AngularJS](http://angularjs.org) & [RequireJS](http://requirejs.org).
 
-
+![alt text](https://github.com/ahsouza/angularjs_require/1.png)
 
 ## Testes unitários 
 
