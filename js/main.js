@@ -1,5 +1,4 @@
-/*global require*/
-'use strict';
+'use strict'
 
 require.config({
 	paths: {
@@ -11,4 +10,4 @@ require.config({
 		}
 	},
 	deps: ['app']
-});
+})

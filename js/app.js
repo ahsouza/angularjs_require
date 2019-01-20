@@ -1,5 +1,4 @@
-/*global require*/
-'use strict';
+'use strict'
 
 require([
 	'angular'
@@ -12,7 +11,7 @@ require([
 	], function (contatoCtrl, contatoFocusDir, contatoEscapeDir, contatoStorageSrv) {
 		angular
 			.module('contatomvc', [contatoFocusDir, contatoEscapeDir, contatoStorageSrv])
-			.controller('ContatoController', contatoCtrl);
-		angular.bootstrap(document, ['contatomvc']);			
-	});	
-});
+			.controller('ContatoController', contatoCtrl)
+		angular.bootstrap(document, ['contatomvc'])
+	})
+})

@@ -1,9 +1,7 @@
-'use strict';
+'use strict'
 
 module.exports = function (grunt) {
-
-	grunt.loadNpmTasks('grunt-contrib-jasmine');
-
+	grunt.loadNpmTasks('grunt-contrib-jasmine')
 	grunt.initConfig({
 		jasmine: {
 			unit: {
@@ -30,5 +28,5 @@ module.exports = function (grunt) {
 				}
 			}
 		}
-	});
-};
+	})
+}
